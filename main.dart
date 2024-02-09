@@ -1,17 +1,17 @@
 import 'dart:io';
 
 void main() {
-  // input dan output
+  // 1. input dan output
   print("siapa nama kamu? ");
   String? nama = stdin.readLineSync();
   print("nama kamu adalah $nama");
 
-  // komentar
+  // 2. komentar
   /*
     komentar
   */
 
-  // variable dan tipe data
+  // 3. variable dan tipe data
   num ipk = 13.89;
   int age = 17;
   double phi = 14.7;
@@ -20,7 +20,7 @@ void main() {
   List names = ["amel", "imel", "umel", "emel", "omel"];
   Map amel = {"nama": "amel", "kelas": 11, "jurusan": "rpl"};
 
-  // operasi aritmatika
+  // 4. operasi aritmatika
   int bil1 = 17;
   int bil2 = 8;
   print(bil1 + bil2);
@@ -33,14 +33,14 @@ void main() {
   print(bil1--);
   print(--bil1);
 
-  // operator pembanding
+  // 5. operator pembanding
   print(true && true);
   print(true && false);
   print(true || false);
   print(!true);
   print(!false);
 
-  // operator percabangan
+  // 6. operator percabangan
   String name = "Amel";
 
   if (name == "amel") {
@@ -67,7 +67,7 @@ void main() {
       print("mungkin anda salah jurusan");
   }
 
-  // perulangan
+  // 7. perulangan
   for (int i = 0; i <= 100; i += 50) {
     print(i);
   }
@@ -87,7 +87,7 @@ void main() {
     i++;
   } while (i <= 100);
 
-  // fungsi
+  // 8. fungsi
   sayHello("amel");
 }
 

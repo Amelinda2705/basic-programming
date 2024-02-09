@@ -1,27 +1,27 @@
 <?php 
 
-  // input dan output
+  // 1. input dan output
   echo "siapa nama kamu? ";
   $name = trim(fgets(STDIN));
   echo "nama kamu adalah $name" . PHP_EOL;
 
 
-  // komentar
+  // 2. komentar
   /*
     komentar
   */
 
-  // variable dan tipe data
-  var_dump(17);
-  var_dump(14.7);
-  var_dump(true);
-  var_dump("rpl");
+  // 3. variable dan tipe data
+  var_dump(17); // int
+  var_dump(14.7); // float
+  var_dump(true); // boolean
+  var_dump("rpl"); // string
   $names = ["amel", "imel", "umel", "emel", "omel"];
-  var_dump($names);   
+  var_dump($names); // array
   $amel = ["nama" => "amel", "kelas" => 11, "jurusan" => "rpl"];
-  var_dump($amel);   
+  var_dump($amel); // map
 
-  // operasi aritmatika
+  // 4. operasi aritmatika
   $bil1 = 17;
   $bil2 = 8;
   echo $bil1 + $bil2 . PHP_EOL;
@@ -35,7 +35,7 @@
   echo --$bil1 . PHP_EOL;
   echo $bil1 % $bil2 . PHP_EOL;
 
-  // operator pembanding
+  // 5. operator pembanding
   echo true && true . PHP_EOL;
   echo true and false . PHP_EOL;
   echo false || false . PHP_EOL;
@@ -43,7 +43,7 @@
   echo !true . PHP_EOL;
   echo true xor false . PHP_EOL;
 
-  // operator percabangan
+  // 6. operator percabangan
   $name = "Amel";
 
   if ($name == "amel") {
@@ -70,7 +70,7 @@
       echo "mungkin anda salah jurusan" . PHP_EOL;
   }
 
-  // perulangan
+  // 7. perulangan
   for ($i = 0; $i <= 100; $i += 50) {
     echo $i . PHP_EOL;
   }
@@ -90,7 +90,7 @@
     $i++;
   } while ($i <= 100);
 
-  // fungsi
+  // 8. fungsi
   function sayHello($name) {
     echo "Hello $name" . PHP_EOL;
   }

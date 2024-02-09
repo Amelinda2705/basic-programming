@@ -22,24 +22,24 @@ enum nama_hari
 };
 
 // fungsi
-void say_hello(string nama){
+void sayHello(string nama){
   cout << "Halo, " << nama << endl;
 }
 
 int main()
 {
-    // input dan output
+    // 1. input dan output
     string nama;
     cout << "siapa nama kamu? " << endl;
     cin >> nama;
     cout << "nama kamu adalah " << nama << endl;
 
-    // komentar
+    // 2. komentar
     /*
         komentar
     */
 
-    // variable dan tipe data
+    // 3. variable dan tipe data
     int age = 17;
     float ipk = 13.89;
     double phi = 14.7;
@@ -72,7 +72,7 @@ int main()
     hari1 = minggu;
 
 
-    // operasi aritmatika
+    // 4. operasi aritmatika
     int bil1 = 17;
     int bil2 = 8;
     cout << bil1 + bil2 << endl;
@@ -85,7 +85,7 @@ int main()
     cout << bil1-- << endl;
     cout << --bil1 << endl;
 
-    // operasi pembanding
+    // 5. operasi pembanding
     bool benar = true;
     bool salah = false;
     bool operasi_and = benar && benar;
@@ -96,7 +96,7 @@ int main()
     cout << operasi_or << endl;
     cout << operasi_not << endl;
 
-    // operator percabangan
+    // 6. operator percabangan
       string name = "Amel";
 
     if (name == "amel") {
@@ -123,7 +123,7 @@ int main()
             cout << "mungkin anda salah jurusan" << endl;
     }
 
-    // perulangan
+    // 7. perulangan
     for (int i = 0; i <= 100; i += 50) {
         cout << i << endl;
     }
@@ -141,6 +141,6 @@ int main()
         i++;
     } while (i <= 100);
 
-    // fungsi
-    say_hello("amel");
+    // 8. fungsi
+    sayHello("amel");
 }
